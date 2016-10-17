@@ -60,7 +60,7 @@ class HealthManager {
 //            guard let samples = results as? [HKQuantitySample] else {
 //                fatalError("An error occured fetching the user's workout type. The error was: \(error?.localizedDescription)");
 //            }
-//            
+//          `  
 //            for sample in samples {
 //                
 //                guard let workoutTypeName =
