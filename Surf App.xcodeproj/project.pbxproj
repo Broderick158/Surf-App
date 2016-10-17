@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3016C81DA6FCED00668184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B327EF61DA42B7200D89315 /* Assets.xcassets */; };
+		1B3016C91DA6FCEE00668184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B327EF61DA42B7200D89315 /* Assets.xcassets */; };
+		1B327EEE1DA42B7200D89315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B327EED1DA42B7200D89315 /* AppDelegate.swift */; };
+		1B327EF01DA42B7200D89315 /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B327EEF1DA42B7200D89315 /* SessionsViewController.swift */; };
+		1B327EF21DA42B7200D89315 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B327EF11DA42B7200D89315 /* MapViewController.swift */; };
+		1B327EF51DA42B7200D89315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B327EF31DA42B7200D89315 /* Main.storyboard */; };
+		1B327EF71DA42B7200D89315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B327EF61DA42B7200D89315 /* Assets.xcassets */; };
+		1B327EFA1DA42B7200D89315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B327EF81DA42B7200D89315 /* LaunchScreen.storyboard */; };
+		1B327F051DA42B7200D89315 /* Surf_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B327F041DA42B7200D89315 /* Surf_AppTests.swift */; };
+		1B327F101DA42B7200D89315 /* Surf_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B327F0F1DA42B7200D89315 /* Surf_AppUITests.swift */; };
+		1B6BD8801DA5BD6700EC4675 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6BD87F1DA5BD6700EC4675 /* HealthKit.framework */; };
+		1B6BD8831DA6FB7600EC4675 /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B327EEF1DA42B7200D89315 /* SessionsViewController.swift */; };
+		1B6BD8841DA6FB7700EC4675 /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B327EEF1DA42B7200D89315 /* SessionsViewController.swift */; };
+		1B6BD8851DA6FC0400EC4675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B327EED1DA42B7200D89315 /* AppDelegate.swift */; };
+		1B6BD8861DA6FC0500EC4675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B327EED1DA42B7200D89315 /* AppDelegate.swift */; };
+		1B6BD8891DA6FC1800EC4675 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B327EF11DA42B7200D89315 /* MapViewController.swift */; };
+		1B6BD88A1DA6FC1900EC4675 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B327EF11DA42B7200D89315 /* MapViewController.swift */; };
+		1BA867341DB58A940039012D /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA867331DB58A940039012D /* HealthManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B327F011DA42B7200D89315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B327EE21DA42B7200D89315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B327EE91DA42B7200D89315;
+			remoteInfo = "Surf App";
+		};
+		1B327F0C1DA42B7200D89315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B327EE21DA42B7200D89315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B327EE91DA42B7200D89315;
+			remoteInfo = "Surf App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B327EEA1DA42B7200D89315 /* Surf App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Surf App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B327EED1DA42B7200D89315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B327EEF1DA42B7200D89315 /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
+		1B327EF11DA42B7200D89315 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1B327EF41DA42B7200D89315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B327EF61DA42B7200D89315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B327EF91DA42B7200D89315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B327EFB1DA42B7200D89315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B327F001DA42B7200D89315 /* Surf AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Surf AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B327F041DA42B7200D89315 /* Surf_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surf_AppTests.swift; sourceTree = "<group>"; };
+		1B327F061DA42B7200D89315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B327F0B1DA42B7200D89315 /* Surf AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Surf AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B327F0F1DA42B7200D89315 /* Surf_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surf_AppUITests.swift; sourceTree = "<group>"; };
+		1B327F111DA42B7200D89315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6BD87D1DA5BD6700EC4675 /* Surf App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Surf App.entitlements"; sourceTree = "<group>"; };
+		1B6BD87F1DA5BD6700EC4675 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		1BA867331DB58A940039012D /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B327EE71DA42B7200D89315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6BD8801DA5BD6700EC4675 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B327EFD1DA42B7200D89315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B327F081DA42B7200D89315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B327EE11DA42B7200D89315 = {
+			isa = PBXGroup;
+			children = (
+				1B327EEC1DA42B7200D89315 /* Surf App */,
+				1B327F031DA42B7200D89315 /* Surf AppTests */,
+				1B327F0E1DA42B7200D89315 /* Surf AppUITests */,
+				1B327EEB1DA42B7200D89315 /* Products */,
+				1B6BD87E1DA5BD6700EC4675 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B327EEB1DA42B7200D89315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B327EEA1DA42B7200D89315 /* Surf App.app */,
+				1B327F001DA42B7200D89315 /* Surf AppTests.xctest */,
+				1B327F0B1DA42B7200D89315 /* Surf AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B327EEC1DA42B7200D89315 /* Surf App */ = {
+			isa = PBXGroup;
+			children = (
+				1B6BD87D1DA5BD6700EC4675 /* Surf App.entitlements */,
+				1B327EED1DA42B7200D89315 /* AppDelegate.swift */,
+				1B327EEF1DA42B7200D89315 /* SessionsViewController.swift */,
+				1BA867331DB58A940039012D /* HealthManager.swift */,
+				1B327EF11DA42B7200D89315 /* MapViewController.swift */,
+				1B327EF31DA42B7200D89315 /* Main.storyboard */,
+				1B327EF61DA42B7200D89315 /* Assets.xcassets */,
+				1B327EF81DA42B7200D89315 /* LaunchScreen.storyboard */,
+				1B327EFB1DA42B7200D89315 /* Info.plist */,
+			);
+			path = "Surf App";
+			sourceTree = "<group>";
+		};
+		1B327F031DA42B7200D89315 /* Surf AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B327F041DA42B7200D89315 /* Surf_AppTests.swift */,
+				1B327F061DA42B7200D89315 /* Info.plist */,
+			);
+			path = "Surf AppTests";
+			sourceTree = "<group>";
+		};
+		1B327F0E1DA42B7200D89315 /* Surf AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B327F0F1DA42B7200D89315 /* Surf_AppUITests.swift */,
+				1B327F111DA42B7200D89315 /* Info.plist */,
+			);
+			path = "Surf AppUITests";
+			sourceTree = "<group>";
+		};
+		1B6BD87E1DA5BD6700EC4675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B6BD87F1DA5BD6700EC4675 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B327EE91DA42B7200D89315 /* Surf App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B327F141DA42B7200D89315 /* Build configuration list for PBXNativeTarget "Surf App" */;
+			buildPhases = (
+				1B327EE61DA42B7200D89315 /* Sources */,
+				1B327EE71DA42B7200D89315 /* Frameworks */,
+				1B327EE81DA42B7200D89315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Surf App";
+			productName = "Surf App";
+			productReference = 1B327EEA1DA42B7200D89315 /* Surf App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B327EFF1DA42B7200D89315 /* Surf AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B327F171DA42B7200D89315 /* Build configuration list for PBXNativeTarget "Surf AppTests" */;
+			buildPhases = (
+				1B327EFC1DA42B7200D89315 /* Sources */,
+				1B327EFD1DA42B7200D89315 /* Frameworks */,
+				1B327EFE1DA42B7200D89315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B327F021DA42B7200D89315 /* PBXTargetDependency */,
+			);
+			name = "Surf AppTests";
+			productName = "Surf AppTests";
+			productReference = 1B327F001DA42B7200D89315 /* Surf AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B327F0A1DA42B7200D89315 /* Surf AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B327F1A1DA42B7200D89315 /* Build configuration list for PBXNativeTarget "Surf AppUITests" */;
+			buildPhases = (
+				1B327F071DA42B7200D89315 /* Sources */,
+				1B327F081DA42B7200D89315 /* Frameworks */,
+				1B327F091DA42B7200D89315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B327F0D1DA42B7200D89315 /* PBXTargetDependency */,
+			);
+			name = "Surf AppUITests";
+			productName = "Surf AppUITests";
+			productReference = 1B327F0B1DA42B7200D89315 /* Surf AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B327EE21DA42B7200D89315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Hang Ten LLC";
+				TargetAttributes = {
+					1B327EE91DA42B7200D89315 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HVN75Q98T4;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					1B327EFF1DA42B7200D89315 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HVN75Q98T4;
+						ProvisioningStyle = Automatic;
+					};
+					1B327F0A1DA42B7200D89315 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 1B327EE51DA42B7200D89315 /* Build configuration list for PBXProject "Surf App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B327EE11DA42B7200D89315;
+			productRefGroup = 1B327EEB1DA42B7200D89315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B327EE91DA42B7200D89315 /* Surf App */,
+				1B327EFF1DA42B7200D89315 /* Surf AppTests */,
+				1B327F0A1DA42B7200D89315 /* Surf AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B327EE81DA42B7200D89315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B327EFA1DA42B7200D89315 /* LaunchScreen.storyboard in Resources */,
+				1B327EF71DA42B7200D89315 /* Assets.xcassets in Resources */,
+				1B327EF51DA42B7200D89315 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B327EFE1DA42B7200D89315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3016C81DA6FCED00668184 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B327F091DA42B7200D89315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3016C91DA6FCEE00668184 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B327EE61DA42B7200D89315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B327EF21DA42B7200D89315 /* MapViewController.swift in Sources */,
+				1B327EEE1DA42B7200D89315 /* AppDelegate.swift in Sources */,
+				1B327EF01DA42B7200D89315 /* SessionsViewController.swift in Sources */,
+				1BA867341DB58A940039012D /* HealthManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B327EFC1DA42B7200D89315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6BD8851DA6FC0400EC4675 /* AppDelegate.swift in Sources */,
+				1B327F051DA42B7200D89315 /* Surf_AppTests.swift in Sources */,
+				1B6BD8891DA6FC1800EC4675 /* MapViewController.swift in Sources */,
+				1B6BD8831DA6FB7600EC4675 /* SessionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B327F071DA42B7200D89315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6BD8861DA6FC0500EC4675 /* AppDelegate.swift in Sources */,
+				1B327F101DA42B7200D89315 /* Surf_AppUITests.swift in Sources */,
+				1B6BD88A1DA6FC1900EC4675 /* MapViewController.swift in Sources */,
+				1B6BD8841DA6FB7700EC4675 /* SessionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B327F021DA42B7200D89315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B327EE91DA42B7200D89315 /* Surf App */;
+			targetProxy = 1B327F011DA42B7200D89315 /* PBXContainerItemProxy */;
+		};
+		1B327F0D1DA42B7200D89315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B327EE91DA42B7200D89315 /* Surf App */;
+			targetProxy = 1B327F0C1DA42B7200D89315 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B327EF31DA42B7200D89315 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B327EF41DA42B7200D89315 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B327EF81DA42B7200D89315 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B327EF91DA42B7200D89315 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B327F121DA42B7200D89315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B327F131DA42B7200D89315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B327F151DA42B7200D89315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Surf App/Surf App.entitlements";
+				DEVELOPMENT_TEAM = HVN75Q98T4;
+				INFOPLIST_FILE = "Surf App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.broderickhigby.Surf-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B327F161DA42B7200D89315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Surf App/Surf App.entitlements";
+				DEVELOPMENT_TEAM = HVN75Q98T4;
+				INFOPLIST_FILE = "Surf App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.broderickhigby.Surf-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1B327F181DA42B7200D89315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HVN75Q98T4;
+				INFOPLIST_FILE = "Surf AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.broderickhigby.Surf-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B327F191DA42B7200D89315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HVN75Q98T4;
+				INFOPLIST_FILE = "Surf AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.broderickhigby.Surf-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1B327F1B1DA42B7200D89315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Surf AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.broderickhigby.Surf-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B327F1C1DA42B7200D89315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Surf AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.broderickhigby.Surf-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B327EE51DA42B7200D89315 /* Build configuration list for PBXProject "Surf App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B327F121DA42B7200D89315 /* Debug */,
+				1B327F131DA42B7200D89315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B327F141DA42B7200D89315 /* Build configuration list for PBXNativeTarget "Surf App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B327F151DA42B7200D89315 /* Debug */,
+				1B327F161DA42B7200D89315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B327F171DA42B7200D89315 /* Build configuration list for PBXNativeTarget "Surf AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B327F181DA42B7200D89315 /* Debug */,
+				1B327F191DA42B7200D89315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B327F1A1DA42B7200D89315 /* Build configuration list for PBXNativeTarget "Surf AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B327F1B1DA42B7200D89315 /* Debug */,
+				1B327F1C1DA42B7200D89315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B327EE21DA42B7200D89315 /* Project object */;
+}
